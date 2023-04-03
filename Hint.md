@@ -7,3 +7,16 @@
 - Prettier
 
 npm i -D prettier prettier-plugin-tailwindcss
+
+- React Hook Form
+
+npm i react-hook-form
+
+React Hook form is good especially when you are working with TailwindCSS
+
+https://react-hook-form.com/
+
+if you are using material UI, then use Formik
+
+- Form Submit
+  https://formsubmit.co/
