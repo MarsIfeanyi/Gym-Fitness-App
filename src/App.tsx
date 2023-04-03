@@ -2,6 +2,7 @@ import { Fragment, useEffect } from "react";
 import { useState } from "react";
 
 import Navbar from "@/scenes/navbar";
+import Home from "@/scenes/home";
 
 enum SelectedPage {
   Home = "home",
