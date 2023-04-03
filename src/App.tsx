@@ -3,6 +3,10 @@ import { useState } from "react";
 
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
+import Benefits from "./scenes/benefits";
+import OurClasses from "./scenes/ourClasses";
+import ContactUS from "./scenes/contactUs";
+import Footer from "./scenes/footer";
 
 enum SelectedPage {
   Home = "home",
@@ -39,7 +43,15 @@ function App() {
           isTopOfPage={isTopOfPage}
         />
 
-        <Home />
+        <Home setSelectedPage={setSelectedPage} />
+
+        <Benefits setSelectedPage={setSelectedPage} />
+
+        <OurClasses setSelectedPage={setSelectedPage} />
+
+        <ContactUS setSelectedPage={setSelectedPage} />
+
+        <Footer />
       </div>
     </Fragment>
   );
